@@ -1,19 +1,17 @@
-// const {fromDollarToYen,fromEuroToDollar,fromYenToPound} = require("./app");
+const {fromDollarToYen,fromEuroToDollar, fromYenToPound} = require("./app");
+
+ console.log(fromDollarToYen, fromEuroToDollar, fromYenToPound)
+
+ test("Dolar a Yenes", () => {
+  expect(fromDollarToYen(3.5)).toBe(370.4166666666667)});
 
 
-// test('adds 14 + 9 to equal 23', () => {
-//     let total = sum(14, 9);
-//     expect(total).toBe(23);
-//     });
+test("Euro a dolar", () => {
+  expect(fromEuroToDollar(3.5)).toBe(4.2) });
 
 
-// console.log(fromDollarToYen, fromEuroToDollar, fromYenToPound)
 
-test("One euro should be 1.206 dollars", function(){
-     //importo la funcion desde app.js
-    const {fromEuroToDollar} = require('./app.js')
-        
-    //   hago mi comparacion (la prueba)
-    expect(fromEuroToDollar(3.5)).toBe(4.2) })
-
+  test("Yenes a Libras esterlinas", () => {
+// //       //   hago mi comparacion (la prueba)
+    expect(fromYenToPound(3.5)).toBe( 0.0218921032056294) });
 

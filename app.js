@@ -1,20 +1,4 @@
 
-const fromEuroToDollar = function(valueInEuro){
-    // convertimos el valor a dolares
-    let valueInDollar = valueInEuro * 1.2;
-    // retornamos el valor
-    return valueInDollar;}
-
-
-console.log("Hello World")
-
-const sum = (a,b) => {
-    return a + b
-}
-
-console.log(sum(7,3))
-
-
 
 
 function fromDollarToYen(dollars) {
@@ -25,7 +9,7 @@ function fromDollarToYen(dollars) {
 
 
 function fromEuroToDollar (Euro) {
-
+    
     return Euro*1.2
     
 }
